@@ -6,35 +6,29 @@ import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
 
 const menuitems = [
   {
-    title: "Features",
+    title: "Mes",
     path: "#",
     children: [
-      { title: "Action", path: "/" },
-      { title: "Another action", path: "#" },
-      { title: "Dropdown Submenu", path: "#" },
-      { title: "404 Page", path: "/404" },
+      { title: "Informació", path: "/" },
+      { title: "Consultes", path: "#" },
     ],
   },
   {
-    title: "Pricing",
-    path: "/pricing",
+    title: "Productes",
+    badge: true,
+    path: "/",
+  },
+  {
+    title: "Contacte",
+    path: "/Contact",
+  },
+  {
+    title: "Preu",
+    path: "/",
   },
   {
     title: "About",
-    path: "/about",
-  },
-  {
-    title: "Blog",
-    path: "/blog",
-  },
-  {
-    title: "Contact",
-    path: "/contact",
-  },
-  {
-    title: "Pro Version",
-    badge: true,
-    path: "https://astroship-pro.web3templates.com/",
+    path: "/",
   },
 ];
 ---
