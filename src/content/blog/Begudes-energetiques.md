@@ -12,9 +12,14 @@ author: "Grefusa"
 tags: [Energia, Esport, Natural]
 ---
 
-<div
- class="mx-auto prose prose-lg mt-6 max-w-3xl prose-h3:underline prose-p:text-justify">
-    
-Les begudes energètiques Grefusa FreshPower estan formulades per proporcionar-te una energia ràpida i sostenible. Amb una combinació de vitamines i minerals, aquestes begudes t'ajuden a mantenir-te actiu i concentrat durant tot el dia, especialment en els moments d'esforç físic. Sense sucres artificials, són la millor opció per hidratar-te i revitalitzar-te de manera saludable.
-
+<div class="container flex flex-row-reverse items-center">
+  <div class="text text-justify flex-1">
+    <div>
+      Les begudes energètiques Grefusa FreshPower estan formulades per proporcionar-te una energia ràpida i sostenible. Amb una combinació de vitamines i minerals, aquestes begudes t'ajuden a mantenir-te actiu i concentrat durant tot el dia, especialment en els moments d'esforç físic. Sense sucres artificials, són la millor opció per hidratar-te i revitalitzar-te de manera saludable.
+    </div>
+  </div>
+  <div class="image flex-1 rounded-md">
+    <img class= "rounded-md" src="https://i.ibb.co/jvFs2bp/Imagen-de-Whats-App-2024-12-02-a-las-16-21-57-ec7c63e6.jpg" alt="Imagen de la bebida Grefusa FreshPower" width="300">
+  </div>
 </div>
+
