@@ -3,7 +3,7 @@ draft: false
 title: "Material esportiu"
 snippet: "Ornare cum cursus laoreet sagittis nunc fusce posuere per euismod dis vehicula a, semper fames lacus maecenas dictumst pulvinar neque enim non potenti. Torquent hac sociosqu eleifend potenti."
 image: {
-    src: "https://i.ibb.co/grvxRs8/Prueba.jpg",
+    src: "https://i.ibb.co/WtpM0tg/deporte.webp",
     alt: "frontend master"
 }
 publishDate: "2024-11-25 15:39"
@@ -12,9 +12,13 @@ author: "Grefusa"
 tags: [Esport, Acció, Gym, Salut]
 ---
 
-<div
- class="mx-auto prose prose-lg mt-6 max-w-3xl prose-h3:underline prose-p:text-justify">
-
-Grefusa FreshPower t'ofereix una línia de material esportiu dissenyat per a potenciar el teu rendiment. Des de pilotes, tovalloles fins a motxilles, tots els productes estan fabricats amb materials de qualitat per garantir durabilitat i comoditat. Tant si practiques esport a l'aire lliure com al gimnàs, el nostre material t'acompanyarà en cada entrenament.
-
- </div>
+<div class="container flex flex-row-reverse items-center">
+  <div class="text text-justify flex-1">
+    <div>
+      Grefusa FreshPower t'ofereix una línia de material esportiu dissenyat per a potenciar el teu rendiment. Des de pilotes, tovalloles fins a motxilles, tots els productes estan fabricats amb materials de qualitat per garantir durabilitat i comoditat. Tant si practiques esport a l'aire lliure com al gimnàs, el nostre material t'acompanyarà en cada entrenament.
+    </div>
+  </div>
+  <div class="image flex-1 rounded-md">
+    <img class= "rounded-md" src="https://i.ibb.co/grvxRs8/Prueba.jpg" alt="Imagen de la bebida Grefusa FreshPower" width="300">
+  </div>
+</div>
