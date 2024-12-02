@@ -4,7 +4,7 @@ title: "Begudes energètiques"
 snippet: "Ornare cum cursus laoreet sagittis nunc fusce posuere per euismod dis vehicula a, semper fames lacus maecenas dictumst pulvinar neque enim non potenti. Torquent hac sociosqu eleifend potenti."
 image: {
     src: "https://ibb.co/JRPg4mh",
-    alt: "full stack web development"
+    alt: "Begudes energètiques"
 }
 publishDate: "2024-11-25 11:39"
 category: "Novetat"
