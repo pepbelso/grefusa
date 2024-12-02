@@ -19,6 +19,6 @@ tags: [Proteïna, Preentrenament, Natural]
     </div>
   </div>
   <div class="image flex-1 rounded-md">
-    <img class= "rounded-md" src="https://i.ibb.co/jvFs2bp/Imagen-de-Whats-App-2024-12-02-a-las-16-21-57-ec7c63e6.jpg" alt="Imagen de la bebida Grefusa FreshPower" width="300">
+    <img class= "rounded-md" src="https://i.ibb.co/PFwSjGC/Imagen-de-Whats-App-2024-12-02-a-las-16-21-56-4c6774d2.jpg" alt="Imagen de la bebida Grefusa FreshPower" width="300">
   </div>
 </div>
