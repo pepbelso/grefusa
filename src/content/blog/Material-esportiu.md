@@ -19,6 +19,6 @@ tags: [Esport, Acció, Gym, Salut]
     </div>
   </div>
   <div class="image flex-1 rounded-md">
-    <img class= "rounded-md" src="https://i.ibb.co/grvxRs8/Prueba.jpg" alt="Imagen de la bebida Grefusa FreshPower" width="300">
+    <img class= "rounded-md" src="https://i.ibb.co/grvxRs8/Prueba.jpg" alt="Imagen del material deportivo de Grefusa FreshPower" width="300">
   </div>
 </div>
