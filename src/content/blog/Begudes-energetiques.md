@@ -3,7 +3,7 @@ draft: false
 title: "Begudes energètiques"
 snippet: "Ornare cum cursus laoreet sagittis nunc fusce posuere per euismod dis vehicula a, semper fames lacus maecenas dictumst pulvinar neque enim non potenti. Torquent hac sociosqu eleifend potenti."
 image: {
-    src: "https://i.ibb.co/jvFs2bp/Imagen-de-Whats-App-2024-12-02-a-las-16-21-57-ec7c63e6.jpg",
+    src: "[https://i.ibb.co/jvFs2bp/Imagen-de-Whats-App-2024-12-02-a-las-16-21-57-ec7c63e6.jpg](https://i.ibb.co/NSdFnzz/DALL-E-2024-12-02-16-55-44-An-advertising-style-composition-for-a-new-healthy-and-energetic-beverage.webp)",
     alt: "Begudes energètiques"
 }
 publishDate: "2024-11-25 11:39"
