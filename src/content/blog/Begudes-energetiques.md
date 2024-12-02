@@ -15,6 +15,6 @@ tags: [Energia, Esport, Natural]
 <div
  class="mx-auto prose prose-lg mt-6 max-w-3xl prose-h3:underline prose-p:text-justify">
     
-Les barretes saludables de Grefusa FreshPower són l'opció perfecta per a aquells que busquen una font d'energia natural i equilibrada. Fabricades amb ingredients de qualitat, com cereals, fruits secs i superaliments, aquestes barretes són ideals per a un berenar nutritiu abans o després de l'activitat física. Sense sucres afegits ni ingredients artificials, et donen l'impuls que necessites de manera saludable.
+Les begudes energètiques Grefusa FreshPower estan formulades per proporcionar-te una energia ràpida i sostenible. Amb una combinació de vitamines i minerals, aquestes begudes t'ajuden a mantenir-te actiu i concentrat durant tot el dia, especialment en els moments d'esforç físic. Sense sucres artificials, són la millor opció per hidratar-te i revitalitzar-te de manera saludable.
 
 </div>
