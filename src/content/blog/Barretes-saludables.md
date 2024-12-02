@@ -3,7 +3,7 @@ draft: false
 title: "Barretes saludables"
 snippet: "Ornare cum cursus laoreet sagittis nunc fusce posuere per euismod dis vehicula a, semper fames lacus maecenas dictumst pulvinar neque enim non potenti. Torquent hac sociosqu eleifend potenti."
 image: {
-    src: "https://images.unsplash.com/photo-1627163439134-7a8c47e08208?&fit=crop&w=430&h=240",
+    src: "https://i.ibb.co/PzYg7vd/DALL-E-2024-12-02-20-21-33-An-advertisement-for-Grefusa-s-new-healthy-and-energetic-snack-bars-The-i.webp",
     alt: "data structures & algorithms"
 }
 publishDate: "2024-11-25 16:39"
@@ -12,9 +12,13 @@ author: "Grefusa"
 tags: [Proteïna, Preentrenament, Natural]
 ---
 
-<div
- class="mx-auto prose prose-lg mt-6 max-w-3xl prose-h3:underline prose-p:text-justify">
-
-Les barretes saludables de Grefusa FreshPower són l'opció perfecta per a aquells que busquen una font d'energia natural i equilibrada. Fabricades amb ingredients de qualitat, com cereals, fruits secs i superaliments, aquestes barretes són ideals per a un berenar nutritiu abans o després de l'activitat física. Sense sucres afegits ni ingredients artificials, et donen l'impuls que necessites de manera saludable.
-
+<div class="container flex flex-row-reverse items-center">
+  <div class="text text-justify flex-1">
+    <div>
+      Les barretes saludables de Grefusa FreshPower són l'opció perfecta per a aquells que busquen una font d'energia natural i equilibrada. Fabricades amb ingredients de qualitat, com cereals, fruits secs i superaliments, aquestes barretes són ideals per a un berenar nutritiu abans o després de l'activitat física. Sense sucres afegits ni ingredients artificials, et donen l'impuls que necessites de manera saludable.
+    </div>
+  </div>
+  <div class="image flex-1 rounded-md">
+    <img class= "rounded-md" src="https://i.ibb.co/jvFs2bp/Imagen-de-Whats-App-2024-12-02-a-las-16-21-57-ec7c63e6.jpg" alt="Imagen de la bebida Grefusa FreshPower" width="300">
+  </div>
 </div>
