@@ -6,14 +6,6 @@ import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
 
 const menuitems = [
   {
-    title: "Mes",
-    path: "#",
-    children: [
-      { title: "Informació", path: "/" },
-      { title: "Consultes", path: "#" },
-    ],
-  },
-  {
     title: "Productes",
     badge: true,
     path: "/blog",
@@ -21,14 +13,6 @@ const menuitems = [
   {
     title: "Contacte",
     path: "/contact",
-  },
-  {
-    title: "Preu",
-    path: "/",
-  },
-  {
-    title: "About",
-    path: "/",
   },
 ];
 ---
@@ -48,34 +32,32 @@ const menuitems = [
       </div>
       <MenuItems class="hidden w-full lg:w-auto mt-2 lg:flex lg:mt-0">
         <ul class="flex flex-col lg:flex-row lg:gap-3">
-          {
-            menuitems.map((item, index) => (
-              <>
-                {item.children && (
-                  <Dropdown
-                    title={item.title}
-                    children={item.children}
-                    lastItem={index === menuitems.length - 1}
-                  />
-                )}
+          {menuitems.map((item, index) => (
+            <>
+              {Array.isArray(item.children) && (
+                <Dropdown
+                  title={item.title}
+                  children={item.children}
+                  lastItem={index === menuitems.length - 1}
+                />
+              )}
 
-                {!item.children && (
-                  <li>
-                    <a
-                      href={item.path}
-                      class="flex lg:px-3 py-2 items-center text-gray-600 hover:text-gray-900">
-                      <span> {item.title}</span>
-                      {item.badge && (
-                        <span class="ml-1 px-2 py-0.5 text-[10px] animate-pulse font-semibold uppercase text-white bg-indigo-600 rounded-full">
-                          New
-                        </span>
-                      )}
-                    </a>
-                  </li>
-                )}
-              </>
-            ))
-          }
+              {!Array.isArray(item.children) && (
+                <li>
+                  <a
+                    href={item.path}
+                    class="flex lg:px-3 py-2 items-center text-gray-600 hover:text-gray-900">
+                    <span> {item.title}</span>
+                    {item.badge && (
+                      <span class="ml-1 px-2 py-0.5 text-[10px] animate-pulse font-semibold uppercase text-white bg-orange-600 rounded-full">
+                        New
+                      </span>
+                    )}
+                  </a>
+                </li>
+              )}
+            </>
+          ))}
         </ul>
         <div class="lg:hidden flex items-center mt-3 gap-4">
           <Link href="#" style="muted" block size="md">Accedix</Link>
@@ -85,8 +67,8 @@ const menuitems = [
     </Astronav>
     <div>
       <div class="hidden lg:flex items-center gap-4">
-        <a href="#">Accedix</a>
-        <Link href="#" size="md">Registra't</Link>
+        <a href="#" class="text-orange-400 font-semibold" >Accedix</a>
+        <Link href="#" class="bg-orange-400 font-semibold" size="md">Registra't</Link>
       </div>
     </div>
   </header>
